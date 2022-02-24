@@ -1,5 +1,6 @@
 #geral{
     display: flex;
+    height: 100vh;
 }
 
 #cabecalho {
@@ -180,7 +181,8 @@
 
 .list-group-item_direita {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 0rem;
+    margin: -15px 10px 0px 10px;
     width: 100%;
     color: #212529;
     text-decoration: none;
@@ -212,7 +214,7 @@
 
 #botao-fim{
     display: flex !important;
-    width: 56% !important;
+    width: 80% !important;
     height: 50px !important;
     flex-direction: row !important;
     align-content: center !important;
@@ -281,7 +283,7 @@
 #direito {
     display: flex;
     background-color: rgb(223, 219, 219);
-    height: 969px;
+    /* height: 969px; */
     width: 65%;
     flex-direction: column;
     justify-content: flex-start;
@@ -334,4 +336,81 @@
 #grupo-direita{
     background-color: #dfdbdb;
     border: 0px solid rgba(0,0,0,.125);
+}
+
+#geral_centro {
+    background-color: #5020c3;
+    color: white;
+    position: absolute;
+    width: 25%;
+    border-radius: 20px;
+    height: 289px;
+    right: 635px;
+    top: 223px;
+    box-shadow: grey 20px 20px 50px;
+}
+
+#divfl{   
+    margin: 15px 0px 0px 20px;
+    width: 50%;
+}
+
+#HF {
+    background-color: #7048cf;
+    width: 55%;
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 0px 20px;
+}
+
+#HFF{
+    margin: 0px 0px 0px 10px;
+    font-size: 13px;
+}
+
+#AIT{
+    background-color: #7048cf;
+    width: 55%;
+    margin: 15px 0px 0px 20px;
+    height: 80px;
+}
+
+#AA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#IIO{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#TIO{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#PO{
+    background-color: #7048cf;
+    width: 27%;
+    margin: 15px 0px 0px 20px;
+    height: 80px;
+}
+
+#AIPO{
+    display: flex;
+}
+
+#PA{
+    margin: 5px 0px 0px 10px;
+}
+
+#OQA{
+    margin: 5px 0px 0px 10px;
 }
